@@ -51,11 +51,11 @@ body {
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
-    height:50px;                   /* text area height */
-    width:125px;                   /* text area width */
+    /*height:50px;                   /* text area height */
+    /*width:125px;                   /* text area width */
     text-align:center;
-    padding:250px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:80px 0px 0px 80px;  /* offset vertical: half of image height and text area height */
+    padding:430px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-80px 0px 0px -80px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
@@ -110,6 +110,6 @@ h1 {
 }
  
 .blink {
-    animation:fade 3000ms infinite;
+    animation:fade 50ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
