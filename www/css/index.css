@@ -25,7 +25,7 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A4 0%, #E4E4E4 51%);
+    background-image:linear-gradient(top, #ff0000 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-gradient(
@@ -55,7 +55,7 @@ body {
     /*width:125px;                   /* text area width */
     text-align:center;
     padding:430px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-80px 0px 0px -80px;  /* offset vertical: half of image height and text area height */
+    margin:-20px 0px 0px -20px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
